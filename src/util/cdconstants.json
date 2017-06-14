@@ -1,0 +1,10 @@
+{
+    "offers":[
+        {"relOffer":{"ComponentId":"22824","TemplateId":"941"}},
+        {"bmffaq":{"ComponentId":"49412"}}
+        ],
+    "faqs":[
+        {"bmf":{"ItemId":"49412"}}
+    ],
+    "dynamicpromos":[{"autopay":[{"Test_dyanmic1":"Dynamic Value1"},{"Test_dyanmic2":"Dynamic Value2"},{"Test_dyanmic3":"Dynamic Va9999990000"}]}]
+}

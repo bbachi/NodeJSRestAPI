@@ -1,0 +1,363 @@
+{"level":"info","message":"Request body::::{\"brand\":\"GM\",\"languageCode\":\"EN\",\"retention\":[\"CEN\",\"Early Touch\",\"Late Touch Reminder\"],\"services\":[\"Auto Pay\",\"Paperless\"],\"messages\":[]}","timestamp":"2017-06-12T17:21:14.859Z"}
+{"level":"info","message":"built retention query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or KeyName eq 'region' or StringValue eq 'CEN' or StringValue eq 'Early Touch' or StringValue eq 'Late Touch Reminder'&$expand=Component&$format=json::for the retentions:::::[\"CEN\",\"Early Touch\",\"Late Touch Reminder\"]","timestamp":"2017-06-12T17:21:14.868Z"}
+{"level":"info","message":"built services query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or StringValue eq 'Auto Pay' or StringValue eq 'Paperless'&$expand=Component&$format=json::for the services:::::[\"Auto Pay\",\"Paperless\"]","timestamp":"2017-06-12T17:21:14.868Z"}
+{"level":"info","message":"built messages query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or &$expand=Component&$format=json::for the messages:::::[]","timestamp":"2017-06-12T17:21:14.869Z"}
+{"level":"info","message":"default promo length from the SDL::::::1","timestamp":"2017-06-12T17:21:14.951Z"}
+{"level":"info","message":"services along with priority length from the SDL::::::23","timestamp":"2017-06-12T17:21:15.038Z"}
+{"level":"info","message":"retentions along with priority length from the SDL::::::25","timestamp":"2017-06-12T17:21:15.089Z"}
+{"level":"info","message":"fulfilled promises length:::::::::3","timestamp":"2017-06-12T17:21:15.090Z"}
+{"level":"info","message":"total component lentgh from SDL along with priority:::::::49","timestamp":"2017-06-12T17:21:15.090Z"}
+{"level":"info","message":"component length after sorting priority:::19","timestamp":"2017-06-12T17:21:15.091Z"}
+{"level":"info","message":"component length after sorting region:::7","timestamp":"2017-06-12T17:21:15.092Z"}
+{"level":"info","message":"highest priority:::::::1","timestamp":"2017-06-12T17:21:15.092Z"}
+{"level":"info","message":"same priority length:::::::1","timestamp":"2017-06-12T17:21:15.093Z"}
+{"level":"info","message":"returning:::::component::{\"author\":\"RETAIL\\\\MAli\",\"componentPresUrl\":\"http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/Components(ItemId=7259,PublicationId=123)\",\"createdDate\":\"/Date(1493664915000-300)/\",\"itemId\":7259,\"itemType\":16,\"keyName\":\"subTopic\",\"modifyDate\":\"2017-05-08T14:03:25.000Z\",\"publicationId\":123,\"stringValue\":\"Auto Pay\",\"title\":\"Dynamic promo\",\"priority\":1,\"region\":\"Dashboard\"}","timestamp":"2017-06-12T17:21:15.093Z"}
+{"level":"info","message":"final component:::::{\"author\":\"RETAIL\\\\MAli\",\"componentPresUrl\":\"http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/Components(ItemId=7259,PublicationId=123)\",\"createdDate\":\"/Date(1493664915000-300)/\",\"itemId\":7259,\"itemType\":16,\"keyName\":\"subTopic\",\"modifyDate\":\"2017-05-08T14:03:25.000Z\",\"publicationId\":123,\"stringValue\":\"Auto Pay\",\"title\":\"Dynamic promo\",\"priority\":1,\"region\":\"Dashboard\"}","timestamp":"2017-06-12T17:21:15.093Z"}
+{"level":"info","message":"Auto Pay html contains some dynamic stuff::::need to replace with the values::[{\"Test_dyanmic1\":\"Dynamic Value1\"},{\"Test_dyanmic2\":\"Dynamic Value2\"},{\"Test_dyanmic3\":\"Dynamic Va9999990000\"}]","timestamp":"2017-06-12T17:21:15.130Z"}
+{"level":"info","message":"Auto Pay html contains some images::::prepending image host info to each image::::https://signup.greenmountain.com::::total images found in the content:::1","timestamp":"2017-06-12T17:21:15.131Z"}
+{"level":"info","message":"sending response for offer read:::","timestamp":"2017-06-12T17:21:15.131Z"}
+{"level":"info","message":"Request body::::{\"brand\":\"GM\",\"languageCode\":\"EN\",\"retention\":[\"CEN\",\"Early Touch\",\"Late Touch Reminder\"],\"services\":[\"Auto Pay\",\"Paperless\"],\"messages\":[]}","timestamp":"2017-06-12T17:56:57.094Z"}
+{"level":"info","message":"built retention query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or KeyName eq 'region' or StringValue eq 'CEN' or StringValue eq 'Early Touch' or StringValue eq 'Late Touch Reminder'&$expand=Component&$format=json::for the retentions:::::[\"CEN\",\"Early Touch\",\"Late Touch Reminder\"]","timestamp":"2017-06-12T17:56:57.105Z"}
+{"level":"info","message":"built services query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or StringValue eq 'Auto Pay' or StringValue eq 'Paperless'&$expand=Component&$format=json::for the services:::::[\"Auto Pay\",\"Paperless\"]","timestamp":"2017-06-12T17:56:57.107Z"}
+{"level":"info","message":"built messages query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or &$expand=Component&$format=json::for the messages:::::[]","timestamp":"2017-06-12T17:56:57.108Z"}
+{"level":"info","message":"default promo length from the SDL::::::1","timestamp":"2017-06-12T17:56:57.183Z"}
+{"level":"info","message":"services along with priority length from the SDL::::::23","timestamp":"2017-06-12T17:56:57.303Z"}
+{"level":"info","message":"retentions along with priority length from the SDL::::::25","timestamp":"2017-06-12T17:56:57.307Z"}
+{"level":"info","message":"fulfilled promises length:::::::::3","timestamp":"2017-06-12T17:56:57.308Z"}
+{"level":"info","message":"total component lentgh from SDL along with priority:::::::49","timestamp":"2017-06-12T17:56:57.308Z"}
+{"level":"info","message":"component length after sorting priority:::19","timestamp":"2017-06-12T17:56:57.310Z"}
+{"level":"info","message":"component length after sorting region:::7","timestamp":"2017-06-12T17:56:57.311Z"}
+{"level":"info","message":"highest priority:::::::1","timestamp":"2017-06-12T17:56:57.312Z"}
+{"level":"info","message":"same priority length:::::::1","timestamp":"2017-06-12T17:56:57.312Z"}
+{"level":"info","message":"returning:::::component::{\"author\":\"RETAIL\\\\MAli\",\"componentPresUrl\":\"http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/Components(ItemId=7259,PublicationId=123)\",\"createdDate\":\"/Date(1493664915000-300)/\",\"itemId\":7259,\"itemType\":16,\"keyName\":\"subTopic\",\"modifyDate\":\"2017-05-08T14:03:25.000Z\",\"publicationId\":123,\"stringValue\":\"Auto Pay\",\"title\":\"Dynamic promo\",\"priority\":1,\"region\":\"Dashboard\"}","timestamp":"2017-06-12T17:56:57.313Z"}
+{"level":"info","message":"final component:::::{\"author\":\"RETAIL\\\\MAli\",\"componentPresUrl\":\"http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/Components(ItemId=7259,PublicationId=123)\",\"createdDate\":\"/Date(1493664915000-300)/\",\"itemId\":7259,\"itemType\":16,\"keyName\":\"subTopic\",\"modifyDate\":\"2017-05-08T14:03:25.000Z\",\"publicationId\":123,\"stringValue\":\"Auto Pay\",\"title\":\"Dynamic promo\",\"priority\":1,\"region\":\"Dashboard\"}","timestamp":"2017-06-12T17:56:57.313Z"}
+{"level":"info","message":"Auto Pay html contains some dynamic stuff::::need to replace with the values::[{\"Test_dyanmic1\":\"Dynamic Value1\"},{\"Test_dyanmic2\":\"Dynamic Value2\"},{\"Test_dyanmic3\":\"Dynamic Va9999990000\"}]","timestamp":"2017-06-12T17:56:57.345Z"}
+{"level":"info","message":"Auto Pay html contains some images::::prepending image host info to each image::::https://signup.greenmountain.com::::total images found in the content:::1","timestamp":"2017-06-12T17:56:57.347Z"}
+{"level":"info","message":"sending response for offer read:::","timestamp":"2017-06-12T17:56:57.347Z"}
+{"level":"info","message":"Request body::::{\"brand\":\"GM\",\"languageCode\":\"EN\",\"retention\":[\"CEN\",\"Early Touch\",\"Late Touch Reminder\"],\"services\":[\"Auto Pay\",\"Paperless\"],\"messages\":[]}","timestamp":"2017-06-12T18:01:47.065Z"}
+{"level":"info","message":"built retention query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or KeyName eq 'region' or StringValue eq 'CEN' or StringValue eq 'Early Touch' or StringValue eq 'Late Touch Reminder'&$expand=Component&$format=json::for the retentions:::::[\"CEN\",\"Early Touch\",\"Late Touch Reminder\"]","timestamp":"2017-06-12T18:01:47.066Z"}
+{"level":"info","message":"built services query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or StringValue eq 'Auto Pay' or StringValue eq 'Paperless'&$expand=Component&$format=json::for the services:::::[\"Auto Pay\",\"Paperless\"]","timestamp":"2017-06-12T18:01:47.067Z"}
+{"level":"info","message":"built messages query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or &$expand=Component&$format=json::for the messages:::::[]","timestamp":"2017-06-12T18:01:47.067Z"}
+{"level":"info","message":"services along with priority length from the SDL::::::23","timestamp":"2017-06-12T18:01:47.217Z"}
+{"level":"info","message":"default promo length from the SDL::::::1","timestamp":"2017-06-12T18:01:47.223Z"}
+{"level":"info","message":"retentions along with priority length from the SDL::::::25","timestamp":"2017-06-12T18:01:47.272Z"}
+{"level":"info","message":"fulfilled promises length:::::::::3","timestamp":"2017-06-12T18:01:47.281Z"}
+{"level":"info","message":"total component lentgh from SDL along with priority:::::::49","timestamp":"2017-06-12T18:01:47.282Z"}
+{"level":"info","message":"component length after sorting priority:::19","timestamp":"2017-06-12T18:01:47.282Z"}
+{"level":"info","message":"component length after sorting region:::7","timestamp":"2017-06-12T18:01:47.283Z"}
+{"level":"info","message":"highest priority:::::::1","timestamp":"2017-06-12T18:01:47.283Z"}
+{"level":"info","message":"same priority length:::::::1","timestamp":"2017-06-12T18:01:47.284Z"}
+{"level":"info","message":"returning:::::component::{\"author\":\"RETAIL\\\\MAli\",\"componentPresUrl\":\"http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/Components(ItemId=7259,PublicationId=123)\",\"createdDate\":\"/Date(1493664915000-300)/\",\"itemId\":7259,\"itemType\":16,\"keyName\":\"subTopic\",\"modifyDate\":\"2017-05-08T14:03:25.000Z\",\"publicationId\":123,\"stringValue\":\"Auto Pay\",\"title\":\"Dynamic promo\",\"priority\":1,\"region\":\"Dashboard\"}","timestamp":"2017-06-12T18:01:47.284Z"}
+{"level":"info","message":"final component:::::{\"author\":\"RETAIL\\\\MAli\",\"componentPresUrl\":\"http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/Components(ItemId=7259,PublicationId=123)\",\"createdDate\":\"/Date(1493664915000-300)/\",\"itemId\":7259,\"itemType\":16,\"keyName\":\"subTopic\",\"modifyDate\":\"2017-05-08T14:03:25.000Z\",\"publicationId\":123,\"stringValue\":\"Auto Pay\",\"title\":\"Dynamic promo\",\"priority\":1,\"region\":\"Dashboard\"}","timestamp":"2017-06-12T18:01:47.285Z"}
+{"level":"info","message":"Auto Pay html contains some dynamic stuff::::need to replace with the values::[{\"Test_dyanmic1\":\"Dynamic Value1\"},{\"Test_dyanmic2\":\"Dynamic Value2\"},{\"Test_dyanmic3\":\"Dynamic Va9999990000\"}]","timestamp":"2017-06-12T18:01:47.312Z"}
+{"level":"info","message":"Auto Pay html contains some images::::prepending image host info to each image::::https://signup.greenmountain.com::::total images found in the content:::1","timestamp":"2017-06-12T18:01:47.312Z"}
+{"level":"info","message":"sending response for offer read:::","timestamp":"2017-06-12T18:01:47.313Z"}
+{"level":"info","message":"Request body::::{\"brand\":\"GM\",\"languageCode\":\"EN\",\"retention\":[\"CEN\",\"Early Touch\",\"Late Touch Reminder\"],\"services\":[\"Auto Pay\",\"Paperless\"],\"messages\":[]}","timestamp":"2017-06-12T18:59:16.920Z"}
+{"level":"info","message":"built retention query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or KeyName eq 'region' or StringValue eq 'CEN' or StringValue eq 'Early Touch' or StringValue eq 'Late Touch Reminder'&$expand=Component&$format=json::for the retentions:::::[\"CEN\",\"Early Touch\",\"Late Touch Reminder\"]","timestamp":"2017-06-12T18:59:16.921Z"}
+{"level":"info","message":"built services query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or StringValue eq 'Auto Pay' or StringValue eq 'Paperless'&$expand=Component&$format=json::for the services:::::[\"Auto Pay\",\"Paperless\"]","timestamp":"2017-06-12T18:59:16.921Z"}
+{"level":"info","message":"built messages query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or &$expand=Component&$format=json::for the messages:::::[]","timestamp":"2017-06-12T18:59:16.921Z"}
+{"level":"info","message":"default promo length from the SDL::::::1","timestamp":"2017-06-12T18:59:16.996Z"}
+{"level":"info","message":"services along with priority length from the SDL::::::23","timestamp":"2017-06-12T18:59:17.102Z"}
+{"level":"info","message":"retentions along with priority length from the SDL::::::25","timestamp":"2017-06-12T18:59:17.164Z"}
+{"level":"info","message":"fulfilled promises length:::::::::3","timestamp":"2017-06-12T18:59:17.164Z"}
+{"level":"info","message":"total component lentgh from SDL along with priority:::::::49","timestamp":"2017-06-12T18:59:17.166Z"}
+{"level":"info","message":"component length after sorting priority:::19","timestamp":"2017-06-12T18:59:17.167Z"}
+{"level":"info","message":"component length after sorting region:::7","timestamp":"2017-06-12T18:59:17.167Z"}
+{"level":"info","message":"highest priority:::::::1","timestamp":"2017-06-12T18:59:17.168Z"}
+{"level":"info","message":"same priority length:::::::1","timestamp":"2017-06-12T18:59:17.168Z"}
+{"level":"info","message":"returning:::::component::{\"author\":\"RETAIL\\\\MAli\",\"componentPresUrl\":\"http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/Components(ItemId=7259,PublicationId=123)\",\"createdDate\":\"/Date(1493664915000-300)/\",\"itemId\":7259,\"itemType\":16,\"keyName\":\"subTopic\",\"modifyDate\":\"2017-05-08T14:03:25.000Z\",\"publicationId\":123,\"stringValue\":\"Auto Pay\",\"title\":\"Dynamic promo\",\"priority\":1,\"region\":\"Dashboard\"}","timestamp":"2017-06-12T18:59:17.168Z"}
+{"level":"info","message":"final component:::::{\"author\":\"RETAIL\\\\MAli\",\"componentPresUrl\":\"http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/Components(ItemId=7259,PublicationId=123)\",\"createdDate\":\"/Date(1493664915000-300)/\",\"itemId\":7259,\"itemType\":16,\"keyName\":\"subTopic\",\"modifyDate\":\"2017-05-08T14:03:25.000Z\",\"publicationId\":123,\"stringValue\":\"Auto Pay\",\"title\":\"Dynamic promo\",\"priority\":1,\"region\":\"Dashboard\"}","timestamp":"2017-06-12T18:59:17.169Z"}
+{"level":"info","message":"Auto Pay html contains some dynamic stuff::::need to replace with the values::[{\"Test_dyanmic1\":\"Dynamic Value1\"},{\"Test_dyanmic2\":\"Dynamic Value2\"},{\"Test_dyanmic3\":\"Dynamic Va9999990000\"}]","timestamp":"2017-06-12T18:59:17.205Z"}
+{"level":"info","message":"Auto Pay html contains some images::::prepending image host info to each image::::https://signup.greenmountain.com::::total images found in the content:::1","timestamp":"2017-06-12T18:59:17.205Z"}
+{"level":"info","message":"sending response for offer read:::","timestamp":"2017-06-12T18:59:17.207Z"}
+{"level":"info","message":"Request body::::{\"brand\":\"GM\",\"languageCode\":\"EN\",\"retention\":[\"CEN\",\"Early Touch\",\"Late Touch Reminder\"],\"services\":[\"Auto Pay\",\"Paperless\"],\"messages\":[]}","timestamp":"2017-06-13T19:59:17.989Z"}
+{"level":"info","message":"built retention query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or KeyName eq 'region' or StringValue eq 'CEN' or StringValue eq 'Early Touch' or StringValue eq 'Late Touch Reminder'&$expand=Component&$format=json::for the retentions:::::[\"CEN\",\"Early Touch\",\"Late Touch Reminder\"]","timestamp":"2017-06-13T19:59:18.000Z"}
+{"level":"info","message":"built services query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or StringValue eq 'Auto Pay' or StringValue eq 'Paperless'&$expand=Component&$format=json::for the services:::::[\"Auto Pay\",\"Paperless\"]","timestamp":"2017-06-13T19:59:18.000Z"}
+{"level":"info","message":"built messages query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or &$expand=Component&$format=json::for the messages:::::[]","timestamp":"2017-06-13T19:59:18.001Z"}
+{"level":"info","message":"default promo length from the SDL::::::1","timestamp":"2017-06-13T19:59:18.271Z"}
+{"level":"info","message":"retentions along with priority length from the SDL::::::25","timestamp":"2017-06-13T19:59:18.372Z"}
+{"level":"info","message":"services along with priority length from the SDL::::::23","timestamp":"2017-06-13T19:59:18.381Z"}
+{"level":"info","message":"fulfilled promises length:::::::::3","timestamp":"2017-06-13T19:59:18.382Z"}
+{"level":"info","message":"total component lentgh from SDL along with priority:::::::49","timestamp":"2017-06-13T19:59:18.383Z"}
+{"level":"info","message":"component length after sorting priority:::19","timestamp":"2017-06-13T19:59:18.384Z"}
+{"level":"info","message":"component length after sorting region:::7","timestamp":"2017-06-13T19:59:18.385Z"}
+{"level":"info","message":"highest priority:::::::1","timestamp":"2017-06-13T19:59:18.385Z"}
+{"level":"info","message":"same priority length:::::::1","timestamp":"2017-06-13T19:59:18.386Z"}
+{"level":"info","message":"returning:::::component::{\"author\":\"RETAIL\\\\MAli\",\"componentPresUrl\":\"http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/Components(ItemId=7259,PublicationId=123)\",\"createdDate\":\"/Date(1493664915000-300)/\",\"itemId\":7259,\"itemType\":16,\"keyName\":\"subTopic\",\"modifyDate\":\"2017-05-08T14:03:25.000Z\",\"publicationId\":123,\"stringValue\":\"Auto Pay\",\"title\":\"Dynamic promo\",\"priority\":1,\"region\":\"Dashboard\"}","timestamp":"2017-06-13T19:59:18.386Z"}
+{"level":"info","message":"final component:::::{\"author\":\"RETAIL\\\\MAli\",\"componentPresUrl\":\"http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/Components(ItemId=7259,PublicationId=123)\",\"createdDate\":\"/Date(1493664915000-300)/\",\"itemId\":7259,\"itemType\":16,\"keyName\":\"subTopic\",\"modifyDate\":\"2017-05-08T14:03:25.000Z\",\"publicationId\":123,\"stringValue\":\"Auto Pay\",\"title\":\"Dynamic promo\",\"priority\":1,\"region\":\"Dashboard\"}","timestamp":"2017-06-13T19:59:18.386Z"}
+{"level":"info","message":"Auto Pay html contains some dynamic stuff::::need to replace with the values::[{\"Test_dyanmic1\":\"Dynamic Value1\"},{\"Test_dyanmic2\":\"Dynamic Value2\"},{\"Test_dyanmic3\":\"Dynamic Va9999990000\"}]","timestamp":"2017-06-13T19:59:18.420Z"}
+{"level":"info","message":"Auto Pay html contains some images::::prepending image host info to each image::::https://signup.greenmountain.com::::total images found in the content:::1","timestamp":"2017-06-13T19:59:18.421Z"}
+{"level":"info","message":"sending response for offer read:::","timestamp":"2017-06-13T19:59:18.422Z"}
+{"level":"info","message":"Request body::::{\"brand\":\"GM\",\"languageCode\":\"EN\",\"retention\":[],\"services\":[],\"messages\":[]}","timestamp":"2017-06-13T20:03:29.206Z"}
+{"level":"info","message":"built retention query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or KeyName eq 'region' or &$expand=Component&$format=json::for the retentions:::::[]","timestamp":"2017-06-13T20:03:29.216Z"}
+{"level":"info","message":"built services query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or &$expand=Component&$format=json::for the services:::::[]","timestamp":"2017-06-13T20:03:29.217Z"}
+{"level":"info","message":"built messages query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or &$expand=Component&$format=json::for the messages:::::[]","timestamp":"2017-06-13T20:03:29.218Z"}
+{"level":"info","message":"default promo length from the SDL::::::1","timestamp":"2017-06-13T20:03:29.311Z"}
+{"level":"info","message":"fulfilled promises length:::::::::1","timestamp":"2017-06-13T20:03:29.313Z"}
+{"level":"info","message":"total component lentgh from SDL along with priority:::::::1","timestamp":"2017-06-13T20:03:29.314Z"}
+{"level":"info","message":"component length after sorting priority:::1","timestamp":"2017-06-13T20:03:29.315Z"}
+{"level":"info","message":"component length after sorting region:::1","timestamp":"2017-06-13T20:03:29.316Z"}
+{"level":"info","message":"highest priority:::::::0","timestamp":"2017-06-13T20:03:29.316Z"}
+{"level":"info","message":"same priority length:::::::0","timestamp":"2017-06-13T20:03:29.317Z"}
+{"level":"info","message":"returning:::::component::undefined","timestamp":"2017-06-13T20:03:29.319Z"}
+{"level":"info","message":"final component:::::undefined","timestamp":"2017-06-13T20:03:29.319Z"}
+{"level":"info","message":"Request body::::{\"brand\":\"GM\",\"languageCode\":\"EN\",\"retention\":[],\"services\":[],\"messages\":[]}","timestamp":"2017-06-13T20:03:43.093Z"}
+{"level":"info","message":"built retention query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or KeyName eq 'region' or &$expand=Component&$format=json::for the retentions:::::[]","timestamp":"2017-06-13T20:03:43.093Z"}
+{"level":"info","message":"built services query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or &$expand=Component&$format=json::for the services:::::[]","timestamp":"2017-06-13T20:03:43.094Z"}
+{"level":"info","message":"built messages query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or &$expand=Component&$format=json::for the messages:::::[]","timestamp":"2017-06-13T20:03:43.094Z"}
+{"level":"info","message":"default promo length from the SDL::::::1","timestamp":"2017-06-13T20:03:43.133Z"}
+{"level":"info","message":"fulfilled promises length:::::::::1","timestamp":"2017-06-13T20:03:43.133Z"}
+{"level":"info","message":"total component lentgh from SDL along with priority:::::::1","timestamp":"2017-06-13T20:03:43.134Z"}
+{"level":"info","message":"component length after sorting priority:::1","timestamp":"2017-06-13T20:03:43.134Z"}
+{"level":"info","message":"component length after sorting region:::1","timestamp":"2017-06-13T20:03:43.134Z"}
+{"level":"info","message":"highest priority:::::::0","timestamp":"2017-06-13T20:03:43.135Z"}
+{"level":"info","message":"same priority length:::::::0","timestamp":"2017-06-13T20:03:43.140Z"}
+{"level":"info","message":"returning:::::component::undefined","timestamp":"2017-06-13T20:03:43.141Z"}
+{"level":"info","message":"final component:::::undefined","timestamp":"2017-06-13T20:03:43.141Z"}
+{"level":"info","message":"Request body::::{\"brand\":\"GM\",\"languageCode\":\"EN\",\"retention\":[],\"services\":[],\"messages\":[]}","timestamp":"2017-06-13T20:03:44.639Z"}
+{"level":"info","message":"built retention query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or KeyName eq 'region' or &$expand=Component&$format=json::for the retentions:::::[]","timestamp":"2017-06-13T20:03:44.641Z"}
+{"level":"info","message":"built services query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or &$expand=Component&$format=json::for the services:::::[]","timestamp":"2017-06-13T20:03:44.642Z"}
+{"level":"info","message":"built messages query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or &$expand=Component&$format=json::for the messages:::::[]","timestamp":"2017-06-13T20:03:44.642Z"}
+{"level":"info","message":"default promo length from the SDL::::::1","timestamp":"2017-06-13T20:03:44.667Z"}
+{"level":"info","message":"fulfilled promises length:::::::::1","timestamp":"2017-06-13T20:03:44.667Z"}
+{"level":"info","message":"total component lentgh from SDL along with priority:::::::1","timestamp":"2017-06-13T20:03:44.667Z"}
+{"level":"info","message":"component length after sorting priority:::1","timestamp":"2017-06-13T20:03:44.668Z"}
+{"level":"info","message":"component length after sorting region:::1","timestamp":"2017-06-13T20:03:44.669Z"}
+{"level":"info","message":"highest priority:::::::0","timestamp":"2017-06-13T20:03:44.669Z"}
+{"level":"info","message":"same priority length:::::::0","timestamp":"2017-06-13T20:03:44.670Z"}
+{"level":"info","message":"returning:::::component::undefined","timestamp":"2017-06-13T20:03:44.670Z"}
+{"level":"info","message":"final component:::::undefined","timestamp":"2017-06-13T20:03:44.670Z"}
+{"level":"info","message":"Request body::::{\"brand\":\"GM\",\"languageCode\":\"EN\",\"retention\":[],\"services\":[],\"messages\":[]}","timestamp":"2017-06-13T20:04:04.980Z"}
+{"level":"info","message":"built retention query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or KeyName eq 'region' or &$expand=Component&$format=json::for the retentions:::::[]","timestamp":"2017-06-13T20:04:04.981Z"}
+{"level":"info","message":"built services query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or &$expand=Component&$format=json::for the services:::::[]","timestamp":"2017-06-13T20:04:04.982Z"}
+{"level":"info","message":"built messages query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or &$expand=Component&$format=json::for the messages:::::[]","timestamp":"2017-06-13T20:04:04.982Z"}
+{"level":"info","message":"default promo length from the SDL::::::1","timestamp":"2017-06-13T20:04:05.007Z"}
+{"level":"info","message":"fulfilled promises length:::::::::1","timestamp":"2017-06-13T20:04:05.010Z"}
+{"level":"info","message":"total component lentgh from SDL along with priority:::::::1","timestamp":"2017-06-13T20:04:05.010Z"}
+{"level":"info","message":"component length after sorting priority:::1","timestamp":"2017-06-13T20:04:05.011Z"}
+{"level":"info","message":"component length after sorting region:::1","timestamp":"2017-06-13T20:04:05.011Z"}
+{"level":"info","message":"highest priority:::::::0","timestamp":"2017-06-13T20:04:05.011Z"}
+{"level":"info","message":"same priority length:::::::0","timestamp":"2017-06-13T20:04:05.011Z"}
+{"level":"info","message":"returning:::::component::undefined","timestamp":"2017-06-13T20:04:05.013Z"}
+{"level":"info","message":"final component:::::undefined","timestamp":"2017-06-13T20:04:05.014Z"}
+{"level":"info","message":"Request body::::{\"brand\":\"GM\",\"languageCode\":\"EN\",\"retention\":[],\"services\":[],\"messages\":[]}","timestamp":"2017-06-13T20:04:05.678Z"}
+{"level":"info","message":"built retention query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or KeyName eq 'region' or &$expand=Component&$format=json::for the retentions:::::[]","timestamp":"2017-06-13T20:04:05.678Z"}
+{"level":"info","message":"built services query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or &$expand=Component&$format=json::for the services:::::[]","timestamp":"2017-06-13T20:04:05.679Z"}
+{"level":"info","message":"built messages query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or &$expand=Component&$format=json::for the messages:::::[]","timestamp":"2017-06-13T20:04:05.679Z"}
+{"level":"info","message":"default promo length from the SDL::::::1","timestamp":"2017-06-13T20:04:05.704Z"}
+{"level":"info","message":"fulfilled promises length:::::::::1","timestamp":"2017-06-13T20:04:05.705Z"}
+{"level":"info","message":"total component lentgh from SDL along with priority:::::::1","timestamp":"2017-06-13T20:04:05.705Z"}
+{"level":"info","message":"component length after sorting priority:::1","timestamp":"2017-06-13T20:04:05.705Z"}
+{"level":"info","message":"component length after sorting region:::1","timestamp":"2017-06-13T20:04:05.705Z"}
+{"level":"info","message":"highest priority:::::::0","timestamp":"2017-06-13T20:04:05.706Z"}
+{"level":"info","message":"same priority length:::::::0","timestamp":"2017-06-13T20:04:05.706Z"}
+{"level":"info","message":"returning:::::component::undefined","timestamp":"2017-06-13T20:04:05.706Z"}
+{"level":"info","message":"final component:::::undefined","timestamp":"2017-06-13T20:04:05.706Z"}
+{"level":"info","message":"Request body::::{\"brand\":\"GM\",\"languageCode\":\"EN\",\"retention\":[],\"services\":[],\"messages\":[]}","timestamp":"2017-06-13T20:04:06.299Z"}
+{"level":"info","message":"built retention query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or KeyName eq 'region' or &$expand=Component&$format=json::for the retentions:::::[]","timestamp":"2017-06-13T20:04:06.299Z"}
+{"level":"info","message":"built services query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or &$expand=Component&$format=json::for the services:::::[]","timestamp":"2017-06-13T20:04:06.300Z"}
+{"level":"info","message":"built messages query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or &$expand=Component&$format=json::for the messages:::::[]","timestamp":"2017-06-13T20:04:06.300Z"}
+{"level":"info","message":"default promo length from the SDL::::::1","timestamp":"2017-06-13T20:04:06.314Z"}
+{"level":"info","message":"fulfilled promises length:::::::::1","timestamp":"2017-06-13T20:04:06.315Z"}
+{"level":"info","message":"total component lentgh from SDL along with priority:::::::1","timestamp":"2017-06-13T20:04:06.315Z"}
+{"level":"info","message":"component length after sorting priority:::1","timestamp":"2017-06-13T20:04:06.315Z"}
+{"level":"info","message":"component length after sorting region:::1","timestamp":"2017-06-13T20:04:06.316Z"}
+{"level":"info","message":"highest priority:::::::0","timestamp":"2017-06-13T20:04:06.316Z"}
+{"level":"info","message":"same priority length:::::::0","timestamp":"2017-06-13T20:04:06.316Z"}
+{"level":"info","message":"returning:::::component::undefined","timestamp":"2017-06-13T20:04:06.317Z"}
+{"level":"info","message":"final component:::::undefined","timestamp":"2017-06-13T20:04:06.317Z"}
+{"level":"info","message":"Request body::::{\"brand\":\"GM\",\"languageCode\":\"EN\",\"retention\":[],\"services\":[],\"messages\":[]}","timestamp":"2017-06-13T20:04:06.869Z"}
+{"level":"info","message":"built retention query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or KeyName eq 'region' or &$expand=Component&$format=json::for the retentions:::::[]","timestamp":"2017-06-13T20:04:06.878Z"}
+{"level":"info","message":"built services query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or &$expand=Component&$format=json::for the services:::::[]","timestamp":"2017-06-13T20:04:06.878Z"}
+{"level":"info","message":"built messages query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or &$expand=Component&$format=json::for the messages:::::[]","timestamp":"2017-06-13T20:04:06.879Z"}
+{"level":"info","message":"default promo length from the SDL::::::1","timestamp":"2017-06-13T20:04:06.892Z"}
+{"level":"info","message":"fulfilled promises length:::::::::1","timestamp":"2017-06-13T20:04:06.892Z"}
+{"level":"info","message":"total component lentgh from SDL along with priority:::::::1","timestamp":"2017-06-13T20:04:06.892Z"}
+{"level":"info","message":"component length after sorting priority:::1","timestamp":"2017-06-13T20:04:06.892Z"}
+{"level":"info","message":"component length after sorting region:::1","timestamp":"2017-06-13T20:04:06.892Z"}
+{"level":"info","message":"highest priority:::::::0","timestamp":"2017-06-13T20:04:06.894Z"}
+{"level":"info","message":"same priority length:::::::0","timestamp":"2017-06-13T20:04:06.895Z"}
+{"level":"info","message":"returning:::::component::undefined","timestamp":"2017-06-13T20:04:06.895Z"}
+{"level":"info","message":"final component:::::undefined","timestamp":"2017-06-13T20:04:06.896Z"}
+{"level":"info","message":"Request body::::{\"brand\":\"GM\",\"languageCode\":\"EN\",\"retention\":[],\"services\":[],\"messages\":[]}","timestamp":"2017-06-13T20:04:07.602Z"}
+{"level":"info","message":"built retention query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or KeyName eq 'region' or &$expand=Component&$format=json::for the retentions:::::[]","timestamp":"2017-06-13T20:04:07.604Z"}
+{"level":"info","message":"built services query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or &$expand=Component&$format=json::for the services:::::[]","timestamp":"2017-06-13T20:04:07.605Z"}
+{"level":"info","message":"built messages query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or &$expand=Component&$format=json::for the messages:::::[]","timestamp":"2017-06-13T20:04:07.605Z"}
+{"level":"info","message":"default promo length from the SDL::::::1","timestamp":"2017-06-13T20:04:07.637Z"}
+{"level":"info","message":"fulfilled promises length:::::::::1","timestamp":"2017-06-13T20:04:07.639Z"}
+{"level":"info","message":"total component lentgh from SDL along with priority:::::::1","timestamp":"2017-06-13T20:04:07.639Z"}
+{"level":"info","message":"component length after sorting priority:::1","timestamp":"2017-06-13T20:04:07.640Z"}
+{"level":"info","message":"component length after sorting region:::1","timestamp":"2017-06-13T20:04:07.646Z"}
+{"level":"info","message":"highest priority:::::::0","timestamp":"2017-06-13T20:04:07.653Z"}
+{"level":"info","message":"same priority length:::::::0","timestamp":"2017-06-13T20:04:07.653Z"}
+{"level":"info","message":"returning:::::component::undefined","timestamp":"2017-06-13T20:04:07.654Z"}
+{"level":"info","message":"final component:::::undefined","timestamp":"2017-06-13T20:04:07.655Z"}
+{"level":"info","message":"Request body::::{\"brand\":\"GM\",\"languageCode\":\"EN\",\"retention\":[],\"services\":[],\"messages\":[]}","timestamp":"2017-06-13T20:04:08.419Z"}
+{"level":"info","message":"built retention query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or KeyName eq 'region' or &$expand=Component&$format=json::for the retentions:::::[]","timestamp":"2017-06-13T20:04:08.421Z"}
+{"level":"info","message":"built services query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or &$expand=Component&$format=json::for the services:::::[]","timestamp":"2017-06-13T20:04:08.421Z"}
+{"level":"info","message":"built messages query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or &$expand=Component&$format=json::for the messages:::::[]","timestamp":"2017-06-13T20:04:08.421Z"}
+{"level":"info","message":"default promo length from the SDL::::::1","timestamp":"2017-06-13T20:04:08.449Z"}
+{"level":"info","message":"fulfilled promises length:::::::::1","timestamp":"2017-06-13T20:04:08.456Z"}
+{"level":"info","message":"total component lentgh from SDL along with priority:::::::1","timestamp":"2017-06-13T20:04:08.456Z"}
+{"level":"info","message":"component length after sorting priority:::1","timestamp":"2017-06-13T20:04:08.456Z"}
+{"level":"info","message":"component length after sorting region:::1","timestamp":"2017-06-13T20:04:08.457Z"}
+{"level":"info","message":"highest priority:::::::0","timestamp":"2017-06-13T20:04:08.457Z"}
+{"level":"info","message":"same priority length:::::::0","timestamp":"2017-06-13T20:04:08.458Z"}
+{"level":"info","message":"returning:::::component::undefined","timestamp":"2017-06-13T20:04:08.458Z"}
+{"level":"info","message":"final component:::::undefined","timestamp":"2017-06-13T20:04:08.458Z"}
+{"level":"info","message":"Request body::::{\"brand\":\"GM\",\"languageCode\":\"EN\",\"retention\":[],\"services\":[],\"messages\":[]}","timestamp":"2017-06-13T20:04:10.257Z"}
+{"level":"info","message":"built retention query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or KeyName eq 'region' or &$expand=Component&$format=json::for the retentions:::::[]","timestamp":"2017-06-13T20:04:10.257Z"}
+{"level":"info","message":"built services query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or &$expand=Component&$format=json::for the services:::::[]","timestamp":"2017-06-13T20:04:10.257Z"}
+{"level":"info","message":"built messages query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or &$expand=Component&$format=json::for the messages:::::[]","timestamp":"2017-06-13T20:04:10.257Z"}
+{"level":"info","message":"default promo length from the SDL::::::1","timestamp":"2017-06-13T20:04:10.276Z"}
+{"level":"info","message":"fulfilled promises length:::::::::1","timestamp":"2017-06-13T20:04:10.276Z"}
+{"level":"info","message":"total component lentgh from SDL along with priority:::::::1","timestamp":"2017-06-13T20:04:10.276Z"}
+{"level":"info","message":"component length after sorting priority:::1","timestamp":"2017-06-13T20:04:10.277Z"}
+{"level":"info","message":"component length after sorting region:::1","timestamp":"2017-06-13T20:04:10.277Z"}
+{"level":"info","message":"highest priority:::::::0","timestamp":"2017-06-13T20:04:10.277Z"}
+{"level":"info","message":"same priority length:::::::0","timestamp":"2017-06-13T20:04:10.277Z"}
+{"level":"info","message":"returning:::::component::undefined","timestamp":"2017-06-13T20:04:10.277Z"}
+{"level":"info","message":"final component:::::undefined","timestamp":"2017-06-13T20:04:10.277Z"}
+{"level":"info","message":"Request body::::{\"brand\":\"GM\",\"languageCode\":\"EN\",\"retention\":[],\"services\":[],\"messages\":[]}","timestamp":"2017-06-13T20:04:12.663Z"}
+{"level":"info","message":"built retention query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or KeyName eq 'region' or &$expand=Component&$format=json::for the retentions:::::[]","timestamp":"2017-06-13T20:04:12.665Z"}
+{"level":"info","message":"built services query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or &$expand=Component&$format=json::for the services:::::[]","timestamp":"2017-06-13T20:04:12.667Z"}
+{"level":"info","message":"built messages query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or &$expand=Component&$format=json::for the messages:::::[]","timestamp":"2017-06-13T20:04:12.667Z"}
+{"level":"info","message":"default promo length from the SDL::::::1","timestamp":"2017-06-13T20:04:12.681Z"}
+{"level":"info","message":"fulfilled promises length:::::::::1","timestamp":"2017-06-13T20:04:12.681Z"}
+{"level":"info","message":"total component lentgh from SDL along with priority:::::::1","timestamp":"2017-06-13T20:04:12.682Z"}
+{"level":"info","message":"component length after sorting priority:::1","timestamp":"2017-06-13T20:04:12.682Z"}
+{"level":"info","message":"component length after sorting region:::1","timestamp":"2017-06-13T20:04:12.682Z"}
+{"level":"info","message":"highest priority:::::::0","timestamp":"2017-06-13T20:04:12.682Z"}
+{"level":"info","message":"same priority length:::::::0","timestamp":"2017-06-13T20:04:12.683Z"}
+{"level":"info","message":"returning:::::component::undefined","timestamp":"2017-06-13T20:04:12.683Z"}
+{"level":"info","message":"final component:::::undefined","timestamp":"2017-06-13T20:04:12.683Z"}
+{"level":"info","message":"Request body::::{\"brand\":\"GM\",\"languageCode\":\"EN\",\"retention\":[],\"services\":[],\"messages\":[]}","timestamp":"2017-06-13T20:04:14.048Z"}
+{"level":"info","message":"built retention query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or KeyName eq 'region' or &$expand=Component&$format=json::for the retentions:::::[]","timestamp":"2017-06-13T20:04:14.050Z"}
+{"level":"info","message":"built services query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or &$expand=Component&$format=json::for the services:::::[]","timestamp":"2017-06-13T20:04:14.050Z"}
+{"level":"info","message":"built messages query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or &$expand=Component&$format=json::for the messages:::::[]","timestamp":"2017-06-13T20:04:14.051Z"}
+{"level":"info","message":"default promo length from the SDL::::::1","timestamp":"2017-06-13T20:04:14.070Z"}
+{"level":"info","message":"fulfilled promises length:::::::::1","timestamp":"2017-06-13T20:04:14.071Z"}
+{"level":"info","message":"total component lentgh from SDL along with priority:::::::1","timestamp":"2017-06-13T20:04:14.071Z"}
+{"level":"info","message":"component length after sorting priority:::1","timestamp":"2017-06-13T20:04:14.072Z"}
+{"level":"info","message":"component length after sorting region:::1","timestamp":"2017-06-13T20:04:14.072Z"}
+{"level":"info","message":"highest priority:::::::0","timestamp":"2017-06-13T20:04:14.072Z"}
+{"level":"info","message":"same priority length:::::::0","timestamp":"2017-06-13T20:04:14.073Z"}
+{"level":"info","message":"returning:::::component::undefined","timestamp":"2017-06-13T20:04:14.073Z"}
+{"level":"info","message":"final component:::::undefined","timestamp":"2017-06-13T20:04:14.073Z"}
+{"level":"info","message":"Request body::::{\"brand\":\"GM\",\"languageCode\":\"EN\",\"retention\":[],\"services\":[],\"messages\":[]}","timestamp":"2017-06-13T20:04:14.882Z"}
+{"level":"info","message":"built retention query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or KeyName eq 'region' or &$expand=Component&$format=json::for the retentions:::::[]","timestamp":"2017-06-13T20:04:14.883Z"}
+{"level":"info","message":"built services query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or &$expand=Component&$format=json::for the services:::::[]","timestamp":"2017-06-13T20:04:14.884Z"}
+{"level":"info","message":"built messages query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or &$expand=Component&$format=json::for the messages:::::[]","timestamp":"2017-06-13T20:04:14.884Z"}
+{"level":"info","message":"default promo length from the SDL::::::1","timestamp":"2017-06-13T20:04:14.902Z"}
+{"level":"info","message":"fulfilled promises length:::::::::1","timestamp":"2017-06-13T20:04:14.902Z"}
+{"level":"info","message":"total component lentgh from SDL along with priority:::::::1","timestamp":"2017-06-13T20:04:14.902Z"}
+{"level":"info","message":"component length after sorting priority:::1","timestamp":"2017-06-13T20:04:14.903Z"}
+{"level":"info","message":"component length after sorting region:::1","timestamp":"2017-06-13T20:04:14.903Z"}
+{"level":"info","message":"highest priority:::::::0","timestamp":"2017-06-13T20:04:14.903Z"}
+{"level":"info","message":"same priority length:::::::0","timestamp":"2017-06-13T20:04:14.903Z"}
+{"level":"info","message":"returning:::::component::undefined","timestamp":"2017-06-13T20:04:14.903Z"}
+{"level":"info","message":"final component:::::undefined","timestamp":"2017-06-13T20:04:14.903Z"}
+{"level":"info","message":"Request body::::{\"brand\":\"GM\",\"languageCode\":\"EN\",\"retention\":[],\"services\":[],\"messages\":[]}","timestamp":"2017-06-13T20:04:15.187Z"}
+{"level":"info","message":"built retention query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or KeyName eq 'region' or &$expand=Component&$format=json::for the retentions:::::[]","timestamp":"2017-06-13T20:04:15.187Z"}
+{"level":"info","message":"built services query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or &$expand=Component&$format=json::for the services:::::[]","timestamp":"2017-06-13T20:04:15.188Z"}
+{"level":"info","message":"built messages query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or &$expand=Component&$format=json::for the messages:::::[]","timestamp":"2017-06-13T20:04:15.188Z"}
+{"level":"info","message":"default promo length from the SDL::::::1","timestamp":"2017-06-13T20:04:15.202Z"}
+{"level":"info","message":"fulfilled promises length:::::::::1","timestamp":"2017-06-13T20:04:15.202Z"}
+{"level":"info","message":"total component lentgh from SDL along with priority:::::::1","timestamp":"2017-06-13T20:04:15.203Z"}
+{"level":"info","message":"component length after sorting priority:::1","timestamp":"2017-06-13T20:04:15.203Z"}
+{"level":"info","message":"component length after sorting region:::1","timestamp":"2017-06-13T20:04:15.203Z"}
+{"level":"info","message":"highest priority:::::::0","timestamp":"2017-06-13T20:04:15.203Z"}
+{"level":"info","message":"same priority length:::::::0","timestamp":"2017-06-13T20:04:15.203Z"}
+{"level":"info","message":"returning:::::component::undefined","timestamp":"2017-06-13T20:04:15.204Z"}
+{"level":"info","message":"final component:::::undefined","timestamp":"2017-06-13T20:04:15.204Z"}
+{"level":"info","message":"Request body::::{\"brand\":\"GM\",\"languageCode\":\"EN\",\"retention\":[],\"services\":[],\"messages\":[]}","timestamp":"2017-06-13T20:04:15.453Z"}
+{"level":"info","message":"built retention query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or KeyName eq 'region' or &$expand=Component&$format=json::for the retentions:::::[]","timestamp":"2017-06-13T20:04:15.456Z"}
+{"level":"info","message":"built services query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or &$expand=Component&$format=json::for the services:::::[]","timestamp":"2017-06-13T20:04:15.457Z"}
+{"level":"info","message":"built messages query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or &$expand=Component&$format=json::for the messages:::::[]","timestamp":"2017-06-13T20:04:15.457Z"}
+{"level":"info","message":"default promo length from the SDL::::::1","timestamp":"2017-06-13T20:04:15.472Z"}
+{"level":"info","message":"fulfilled promises length:::::::::1","timestamp":"2017-06-13T20:04:15.473Z"}
+{"level":"info","message":"total component lentgh from SDL along with priority:::::::1","timestamp":"2017-06-13T20:04:15.473Z"}
+{"level":"info","message":"component length after sorting priority:::1","timestamp":"2017-06-13T20:04:15.473Z"}
+{"level":"info","message":"component length after sorting region:::1","timestamp":"2017-06-13T20:04:15.473Z"}
+{"level":"info","message":"highest priority:::::::0","timestamp":"2017-06-13T20:04:15.473Z"}
+{"level":"info","message":"same priority length:::::::0","timestamp":"2017-06-13T20:04:15.473Z"}
+{"level":"info","message":"returning:::::component::undefined","timestamp":"2017-06-13T20:04:15.473Z"}
+{"level":"info","message":"final component:::::undefined","timestamp":"2017-06-13T20:04:15.474Z"}
+{"level":"info","message":"Request body::::{\"brand\":\"GM\",\"languageCode\":\"EN\",\"retention\":[],\"services\":[],\"messages\":[]}","timestamp":"2017-06-13T20:04:15.595Z"}
+{"level":"info","message":"built retention query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or KeyName eq 'region' or &$expand=Component&$format=json::for the retentions:::::[]","timestamp":"2017-06-13T20:04:15.596Z"}
+{"level":"info","message":"built services query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or &$expand=Component&$format=json::for the services:::::[]","timestamp":"2017-06-13T20:04:15.596Z"}
+{"level":"info","message":"built messages query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or &$expand=Component&$format=json::for the messages:::::[]","timestamp":"2017-06-13T20:04:15.596Z"}
+{"level":"info","message":"default promo length from the SDL::::::1","timestamp":"2017-06-13T20:04:15.613Z"}
+{"level":"info","message":"fulfilled promises length:::::::::1","timestamp":"2017-06-13T20:04:15.614Z"}
+{"level":"info","message":"total component lentgh from SDL along with priority:::::::1","timestamp":"2017-06-13T20:04:15.614Z"}
+{"level":"info","message":"component length after sorting priority:::1","timestamp":"2017-06-13T20:04:15.614Z"}
+{"level":"info","message":"component length after sorting region:::1","timestamp":"2017-06-13T20:04:15.615Z"}
+{"level":"info","message":"highest priority:::::::0","timestamp":"2017-06-13T20:04:15.615Z"}
+{"level":"info","message":"same priority length:::::::0","timestamp":"2017-06-13T20:04:15.615Z"}
+{"level":"info","message":"returning:::::component::undefined","timestamp":"2017-06-13T20:04:15.615Z"}
+{"level":"info","message":"final component:::::undefined","timestamp":"2017-06-13T20:04:15.615Z"}
+{"level":"info","message":"Request body::::{\"brand\":\"GM\",\"languageCode\":\"EN\",\"retention\":[],\"services\":[],\"messages\":[]}","timestamp":"2017-06-13T20:04:15.771Z"}
+{"level":"info","message":"built retention query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or KeyName eq 'region' or &$expand=Component&$format=json::for the retentions:::::[]","timestamp":"2017-06-13T20:04:15.772Z"}
+{"level":"info","message":"built services query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or &$expand=Component&$format=json::for the services:::::[]","timestamp":"2017-06-13T20:04:15.772Z"}
+{"level":"info","message":"built messages query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or &$expand=Component&$format=json::for the messages:::::[]","timestamp":"2017-06-13T20:04:15.772Z"}
+{"level":"info","message":"default promo length from the SDL::::::1","timestamp":"2017-06-13T20:04:15.788Z"}
+{"level":"info","message":"fulfilled promises length:::::::::1","timestamp":"2017-06-13T20:04:15.788Z"}
+{"level":"info","message":"total component lentgh from SDL along with priority:::::::1","timestamp":"2017-06-13T20:04:15.788Z"}
+{"level":"info","message":"component length after sorting priority:::1","timestamp":"2017-06-13T20:04:15.789Z"}
+{"level":"info","message":"component length after sorting region:::1","timestamp":"2017-06-13T20:04:15.790Z"}
+{"level":"info","message":"highest priority:::::::0","timestamp":"2017-06-13T20:04:15.790Z"}
+{"level":"info","message":"same priority length:::::::0","timestamp":"2017-06-13T20:04:15.790Z"}
+{"level":"info","message":"returning:::::component::undefined","timestamp":"2017-06-13T20:04:15.790Z"}
+{"level":"info","message":"final component:::::undefined","timestamp":"2017-06-13T20:04:15.790Z"}
+{"level":"info","message":"Request body::::{\"brand\":\"GM\",\"languageCode\":\"EN\",\"retention\":[],\"services\":[],\"messages\":[]}","timestamp":"2017-06-13T20:04:15.932Z"}
+{"level":"info","message":"built retention query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or KeyName eq 'region' or &$expand=Component&$format=json::for the retentions:::::[]","timestamp":"2017-06-13T20:04:15.932Z"}
+{"level":"info","message":"built services query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or &$expand=Component&$format=json::for the services:::::[]","timestamp":"2017-06-13T20:04:15.933Z"}
+{"level":"info","message":"built messages query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or &$expand=Component&$format=json::for the messages:::::[]","timestamp":"2017-06-13T20:04:15.933Z"}
+{"level":"info","message":"default promo length from the SDL::::::1","timestamp":"2017-06-13T20:04:15.952Z"}
+{"level":"info","message":"fulfilled promises length:::::::::1","timestamp":"2017-06-13T20:04:15.952Z"}
+{"level":"info","message":"total component lentgh from SDL along with priority:::::::1","timestamp":"2017-06-13T20:04:15.952Z"}
+{"level":"info","message":"component length after sorting priority:::1","timestamp":"2017-06-13T20:04:15.953Z"}
+{"level":"info","message":"component length after sorting region:::1","timestamp":"2017-06-13T20:04:15.953Z"}
+{"level":"info","message":"highest priority:::::::0","timestamp":"2017-06-13T20:04:15.953Z"}
+{"level":"info","message":"same priority length:::::::0","timestamp":"2017-06-13T20:04:15.953Z"}
+{"level":"info","message":"returning:::::component::undefined","timestamp":"2017-06-13T20:04:15.956Z"}
+{"level":"info","message":"final component:::::undefined","timestamp":"2017-06-13T20:04:15.957Z"}
+{"level":"info","message":"Request body::::{\"brand\":\"GM\",\"languageCode\":\"EN\",\"retention\":[],\"services\":[],\"messages\":[]}","timestamp":"2017-06-13T20:04:16.101Z"}
+{"level":"info","message":"built retention query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or KeyName eq 'region' or &$expand=Component&$format=json::for the retentions:::::[]","timestamp":"2017-06-13T20:04:16.103Z"}
+{"level":"info","message":"built services query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or &$expand=Component&$format=json::for the services:::::[]","timestamp":"2017-06-13T20:04:16.104Z"}
+{"level":"info","message":"built messages query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or &$expand=Component&$format=json::for the messages:::::[]","timestamp":"2017-06-13T20:04:16.104Z"}
+{"level":"info","message":"default promo length from the SDL::::::1","timestamp":"2017-06-13T20:04:16.121Z"}
+{"level":"info","message":"fulfilled promises length:::::::::1","timestamp":"2017-06-13T20:04:16.121Z"}
+{"level":"info","message":"total component lentgh from SDL along with priority:::::::1","timestamp":"2017-06-13T20:04:16.121Z"}
+{"level":"info","message":"component length after sorting priority:::1","timestamp":"2017-06-13T20:04:16.122Z"}
+{"level":"info","message":"component length after sorting region:::1","timestamp":"2017-06-13T20:04:16.122Z"}
+{"level":"info","message":"highest priority:::::::0","timestamp":"2017-06-13T20:04:16.122Z"}
+{"level":"info","message":"same priority length:::::::0","timestamp":"2017-06-13T20:04:16.122Z"}
+{"level":"info","message":"returning:::::component::undefined","timestamp":"2017-06-13T20:04:16.122Z"}
+{"level":"info","message":"final component:::::undefined","timestamp":"2017-06-13T20:04:16.122Z"}
+{"level":"info","message":"Request body::::{\"brand\":\"GM\",\"languageCode\":\"EN\",\"retention\":[],\"services\":[],\"messages\":[]}","timestamp":"2017-06-13T20:04:16.323Z"}
+{"level":"info","message":"built retention query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or KeyName eq 'region' or &$expand=Component&$format=json::for the retentions:::::[]","timestamp":"2017-06-13T20:04:16.323Z"}
+{"level":"info","message":"built services query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or &$expand=Component&$format=json::for the services:::::[]","timestamp":"2017-06-13T20:04:16.324Z"}
+{"level":"info","message":"built messages query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or &$expand=Component&$format=json::for the messages:::::[]","timestamp":"2017-06-13T20:04:16.324Z"}
+{"level":"info","message":"default promo length from the SDL::::::1","timestamp":"2017-06-13T20:04:16.343Z"}
+{"level":"info","message":"fulfilled promises length:::::::::1","timestamp":"2017-06-13T20:04:16.343Z"}
+{"level":"info","message":"total component lentgh from SDL along with priority:::::::1","timestamp":"2017-06-13T20:04:16.343Z"}
+{"level":"info","message":"component length after sorting priority:::1","timestamp":"2017-06-13T20:04:16.343Z"}
+{"level":"info","message":"component length after sorting region:::1","timestamp":"2017-06-13T20:04:16.343Z"}
+{"level":"info","message":"highest priority:::::::0","timestamp":"2017-06-13T20:04:16.344Z"}
+{"level":"info","message":"same priority length:::::::0","timestamp":"2017-06-13T20:04:16.344Z"}
+{"level":"info","message":"returning:::::component::undefined","timestamp":"2017-06-13T20:04:16.344Z"}
+{"level":"info","message":"final component:::::undefined","timestamp":"2017-06-13T20:04:16.344Z"}
+{"level":"info","message":"Request body::::{\"brand\":\"GM\",\"languageCode\":\"EN\",\"retention\":[],\"services\":[],\"messages\":[]}","timestamp":"2017-06-13T20:04:16.474Z"}
+{"level":"info","message":"built retention query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or KeyName eq 'region' or &$expand=Component&$format=json::for the retentions:::::[]","timestamp":"2017-06-13T20:04:16.476Z"}
+{"level":"info","message":"built services query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or &$expand=Component&$format=json::for the services:::::[]","timestamp":"2017-06-13T20:04:16.478Z"}
+{"level":"info","message":"built messages query:::http://txaixebxindxd01:13180/cd-service/gme/cdws/odata.svc/CustomMetas()?&$filter=KeyName eq 'priority' or &$expand=Component&$format=json::for the messages:::::[]","timestamp":"2017-06-13T20:04:16.478Z"}
+{"level":"info","message":"default promo length from the SDL::::::1","timestamp":"2017-06-13T20:04:16.498Z"}
+{"level":"info","message":"fulfilled promises length:::::::::1","timestamp":"2017-06-13T20:04:16.498Z"}
+{"level":"info","message":"total component lentgh from SDL along with priority:::::::1","timestamp":"2017-06-13T20:04:16.499Z"}
+{"level":"info","message":"component length after sorting priority:::1","timestamp":"2017-06-13T20:04:16.499Z"}
+{"level":"info","message":"component length after sorting region:::1","timestamp":"2017-06-13T20:04:16.499Z"}
+{"level":"info","message":"highest priority:::::::0","timestamp":"2017-06-13T20:04:16.499Z"}
+{"level":"info","message":"same priority length:::::::0","timestamp":"2017-06-13T20:04:16.499Z"}
+{"level":"info","message":"returning:::::component::undefined","timestamp":"2017-06-13T20:04:16.499Z"}
+{"level":"info","message":"final component:::::undefined","timestamp":"2017-06-13T20:04:16.499Z"}

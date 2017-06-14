@@ -1,0 +1,49 @@
+{
+  "name": "content",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node build/bundle.js",
+    "dev": "webpack",
+    "build": "webpack -p",
+    "test": "mocha -r ts-node/register test/**/*.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/body-parser": "^1.16.3",
+    "@types/chai": "^4.0.0",
+    "@types/chai-http": "0.0.30",
+    "@types/debug": "0.0.29",
+    "@types/express": "^4.0.35",
+    "@types/mocha": "^2.2.41",
+    "@types/node": "^7.0.18",
+    "@types/request": "0.0.43",
+    "@types/tspromise": "0.0.27",
+    "@types/winston": "^2.3.2",
+    "chai": "^4.0.2",
+    "chai-as-promised": "^7.0.0",
+    "chai-http": "^3.0.0",
+    "concurrently": "^3.4.0",
+    "json-loader": "^0.5.4",
+    "mocha": "^3.4.2",
+    "sinon": "^2.3.4",
+    "ts-loader": "^2.0.3",
+    "ts-node": "^3.0.6",
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.5",
+    "webpack-externals-plugin": "^1.0.0"
+  },
+  "dependencies": {
+    "batch": "^0.6.1",
+    "body-parser": "^1.17.1",
+    "debug": "^2.6.6",
+    "dotenv-webpack": "^1.5.0",
+    "express": "^4.15.2",
+    "request": "^2.81.0",
+    "tspromise": "0.0.5",
+    "winston": "^2.3.1",
+    "winston-daily-rotate-file": "^1.4.6"
+  }
+}
